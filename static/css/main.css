@@ -11,8 +11,9 @@
 body {
     background-color: var(--main-background);
     background-image: url(../image/background.png);
-    background-repeat: no-repeat, repeat;
+    background-repeat: no-repeat;
     background-position: center;
+    background-size: 90vw 100vh;
 }
 
 h1,
@@ -30,7 +31,25 @@ p {
     padding: 2vw;
 }
 
+.main-text {
+    font-size: 8vh;
+    font-weight: 700;
+}
+
+.paragraph {
+    font-size: 1.5vw;
+}
+
 .main-page-header {
+    align-items: center;
     text-align: center;
     min-height: 50vh;
+}
+
+.main-page-content {
+    width: 200px;
+}
+
+.title {
+    font-size: 2vw;
 }
