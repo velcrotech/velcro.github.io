@@ -11,6 +11,8 @@
 body {
     background-color: var(--main-background);
     background-image: url(../image/background.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
 }
 
 h1,
