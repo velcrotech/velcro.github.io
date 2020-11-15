@@ -26,6 +26,9 @@ p {
     color: var(--main-black);
 }
 
+
+/* MAIN PAGE */
+
 .main-page-navbar {
     align-items: center;
     padding: 2vw;
