@@ -1,0 +1,13 @@
+/* DOCUMENT VARIABLES */
+
+:root {
+    --main-background: #F0EDEE;
+    --main-black: #0A090C;
+    --rich-blue: #07393C;
+    --medium-blue: #2C666E;
+    --light-blue: #90DDF0;
+}
+
+body {
+    background-color: var(--main-background);
+}
