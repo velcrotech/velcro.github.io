@@ -10,10 +10,10 @@
 
 body {
     background-color: var(--main-background);
-    background-image: url(../image/background.png);
+    background-image: url(../image/background_2.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 90vw 100vh;
+    /* background-position: center; */
+    /* background-size: 100vw 120vh; */
 }
 
 h1,
@@ -55,4 +55,37 @@ p {
 
 .title {
     font-size: 2vw;
+}
+
+.logo {
+    height: 25px;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.webname {
+    color: var(--main-black);
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 6vh;
+    width: 100%;
+    background-color: var(--rich-blue);
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    color: white;
 }
