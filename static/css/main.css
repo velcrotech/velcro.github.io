@@ -16,16 +16,18 @@ body {
     /* background-size: 100vw 120vh; */
 }
 
-h1,
+/*h1,
 h2,
 h3,
 h4,
 h5,
-h6,
+h6,*/
+h1, h2, h3, h4, h5 h6 {
+    margin: 0;
+}
 p {
     color: var(--main-black);
 }
-
 
 /* MAIN PAGE */
 
@@ -58,7 +60,7 @@ p {
 }
 
 .logo {
-    height: 25px;
+    height: 35px;
     width: auto;
 }
 
@@ -89,3 +91,53 @@ a:hover {
 .footer p {
     color: white;
 }
+
+.button {
+  background-color: #4CAF50; /* green */
+  border: none;
+  color: white; 
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5vw;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.button1 {
+  background-color: #F0EDEE; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: #F0EDEE; 
+  color: black; 
+  border: 2px solid #008CBA; /* blue */
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: #e7e7e7; /* gray */
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  color: white; 
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5vw;
+  border-radius: 20px;}
